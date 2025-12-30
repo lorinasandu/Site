@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Psihologul Tău</title>
+    <meta name="description" content="Programează o ședință. Date de contact, locație și formular de programare.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-form {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: var(--font-main);
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-group">
+                <a href="index.html">
+                    <img src="images/logo_main.png" alt="Psihologul Tău" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-mine.html">Despre Mine</a></li>
+                    <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                    <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                    <li><a href="resurse.html">Resurse</a></li>
+                    <li><a href="intrebari.html">Întrebări Frecvente</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background-color: var(--color-light-gray); padding-bottom: 2rem;">
+        <div class="container text-center">
+            <h1 class="section-title">Contact</h1>
+            <p class="lead">Sunt aici să te ascult.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid" style="align-items: flex-start;">
+
+                <!-- Info Side -->
+                <div>
+                    <h3 style="margin-bottom: 1.5rem;">Hai să discutăm</h3>
+                    <p style="margin-bottom: 2rem;">Dacă ai întrebări despre terapie sau vrei să faci o programare, te
+                        rog să folosești formularul sau datele de contact directe.</p>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;">Telefon</h4>
+                        <p><a href="tel:+40700000000" style="font-size: 1.25rem;">+40 700 000 000</a></p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;">Email</h4>
+                        <p><a href="mailto:contact@psihologultau.ro">contact@psihologultau.ro</a></p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;">Locație</h4>
+                        <p>Strada Exemplului Nr. 10, Sector 1, București<br>(Zonă ușor accesibilă,Metrou Piața
+                            Victoriei)</p>
+                    </div>
+
+                    <div
+                        style="margin-top: 3rem; background: var(--color-accent); padding: 1.5rem; border-radius: 8px;">
+                        <strong>Nu ești sigur?</strong>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Este normal să ai ezitări. Putem stabili o
+                            scurtă discuție telefonică gratuită de 10 minute pentru a te lămuri.</p>
+                    </div>
+                </div>
+
+                <!-- Form Side -->
+                <div class="contact-form">
+                    <form
+                        onsubmit="event.preventDefault(); alert('Mesajul a fost trimis! Vă voi contacta în curând.');">
+                        <div class="form-group">
+                            <label class="form-label" for="nume">Numele tău</label>
+                            <input type="text" id="nume" class="form-control" placeholder="Cum să mă adresez?" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Adresa de email</label>
+                            <input type="email" id="email" class="form-control" placeholder="exemplu@email.com"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="telefon">Număr de telefon</label>
+                            <input type="tel" id="telefon" class="form-control" placeholder="07xx xxx xxx">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="subiect">Subiect</label>
+                            <select id="subiect" class="form-control">
+                                <option>Vreau o programare</option>
+                                <option>Informații Terapie Individuală</option>
+                                <option>Informații Psihologie Sportivă</option>
+                                <option>Altceva</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="mesaj">Mesajul tău</label>
+                            <textarea id="mesaj" class="form-control" rows="5"
+                                placeholder="Cu ce te pot ajuta?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Trimite Mesajul</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Psihologul Tău</h4>
+                    <p>Cabinet Individual de Psihologie<br>București, România</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link-uri Rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="despre-mine.html">Despre Mine</a></li>
+                        <li><a href="servicii.html">Servicii ?i Pre?uri</a></li>
+                        <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@psihologultau.ro">contact@psihologultau.ro</a></li>
+                        <li><a href="tel:+40700000000">+40 700 000 000</a></li>
+                        <li>Luni - Vineri: 09:00 - 19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Psihologul Tău. Toate drepturile rezervate.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

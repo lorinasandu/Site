@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurse și Reflecții | Psihologul Tău</title>
+    <meta name="description" content="Articole, gânduri și resurse pentru sănătatea ta emoțională.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .article-card {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .article-image {
+            height: 200px;
+            background-color: var(--color-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+        }
+
+        .article-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-title {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            font-family: var(--font-heading);
+            color: var(--color-text);
+        }
+
+        .article-excerpt {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .read-more {
+            margin-top: auto;
+            color: var(--color-primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-group">
+                <a href="index.html">
+                    <img src="images/logo_main.png" alt="Psihologul Tău" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-mine.html">Despre Mine</a></li>
+                    <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                    <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                    <li><a href="resurse.html" class="active">Resurse</a></li>
+                    <li><a href="intrebari.html">Întrebări Frecvente</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background-color: var(--color-light-gray); padding-bottom: 2rem;">
+        <div class="container text-center">
+            <h1 class="section-title">Resurse și Reflecții</h1>
+            <p class="lead">Gânduri, articole și instrumente pentru călătoria ta interioară.</p>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="services-grid"> <!-- Reusing grid layout -->
+
+                <!-- Article 1 -->
+                <article class="article-card">
+                    <div class="article-image">
+                        <span>[Reziliență]</span>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">23 Mai 2025</div>
+                        <h2 class="article-title">Reziliența, arta de a te ridica din nou</h2>
+                        <p class="article-excerpt">Descoperă cum să îți consolidezi reziliența emoțională prin
+                            autocompasiune, gândire adaptivă și tehnici simple de autoreglare zilnică.</p>
+                        <a href="https://psihologultau.ro/resurse1.html" class="read-more" target="_blank">Citește
+                            articolul original →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card">
+                    <div class="article-image">
+                        <span>[Echilibru]</span>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">23 Mai 2025</div>
+                        <h2 class="article-title">Sănătatea emoțională, respirație, gânduri și relații</h2>
+                        <p class="article-excerpt">Corpul, mintea, emoțiile și relațiile tale formează un sistem
+                            interconectat. Echilibrul interior influențează tot ce trăiești.</p>
+                        <a href="https://psihologultau.ro/resurse2.html" class="read-more" target="_blank">Citește
+                            articolul original →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card">
+                    <div class="article-image">
+                        <span>[Adlerian]</span>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">11 Mai 2025</div>
+                        <h2 class="article-title">Psihoterapia adleriană</h2>
+                        <p class="article-excerpt">Despre definirea scopurilor individuale și găsirea soluțiilor de
+                            viitor. O abordare care pune accent pe apartenență și curaj.</p>
+                        <a href="https://psihologultau.ro/resurse3.html" class="read-more" target="_blank">Citește
+                            articolul original →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card">
+                    <div class="article-image">
+                        <span>[Curaj]</span>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-date">11 Mai 2025</div>
+                        <h2 class="article-title">Terapia nu este doar pentru crize</h2>
+                        <p class="article-excerpt">E și pentru oameni curajoși care vor mai mult de la viață. Un
+                            instrument pentru dezvoltare și autocunoaștere profundă.</p>
+                        <a href="https://psihologultau.ro/resurse4.html" class="read-more" target="_blank">Citește
+                            articolul original →</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Psihologul Tău</h4>
+                    <p>Cabinet Individual de Psihologie<br>București, România</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link-uri Rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="despre-mine.html">Despre Mine</a></li>
+                        <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                        <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                        <li><a href="resurse.html">Resurse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@psihologultau.ro">contact@psihologultau.ro</a></li>
+                        <li><a href="tel:+40700000000">+40 700 000 000</a></li>
+                        <li>Luni - Vineri: 09:00 - 19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Psihologul Tău. Toate drepturile rezervate.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
