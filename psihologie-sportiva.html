@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -43,15 +44,16 @@
     </header>
 
     <!-- Page Header -->
-    <section class="section" style="background-color: var(--color-light-gray); padding-bottom: 2rem;">
+    <section class="section"
+        style="background-color: var(--color-light-gray); padding-top: 1.5rem; padding-bottom: 1rem;">
         <div class="container text-center">
-            <h1 class="section-title">Psihologie Sportivă & Performanță</h1>
-            <p class="lead">Când corpul poate, mintea face diferența.</p>
+            <h1 class="section-title" style="margin-bottom: 0.3rem;">Psihologie Sportivă & Performanță</h1>
+            <p class="lead" style="margin-top: 0; margin-bottom: 0;">Când corpul poate, mintea face diferența.</p>
         </div>
     </section>
 
     <!-- Content -->
-    <section class="section">
+    <section class="section" style="padding-top: 2rem;">
         <div class="container">
             <div class="about-grid">
                 <div>
@@ -64,16 +66,6 @@
                     <p style="margin-bottom: 1rem;">Programul de psihologie sportivă este conceput pentru a te ajuta să
                         îți atingi potențialul maxim, transformând stresul în energie constructivă.</p>
 
-                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-primary);">Pentru cine este
-                        acest program?</h3>
-                    <ul style="list-style: none; padding: 0;">
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">🏅 Sportivi de performanță
-                            (juniori și seniori)</li>
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">🏃‍♂️ Sportivi amatori care vor să
-                            își depășească limitele</li>
-                        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">👔 Antrenori și părinți de
-                            sportivi</li>
-                    </ul>
                 </div>
                 <div class="about-image" style="height: auto; min-height: 300px;">
                     <img src="images/psihologie_sportiva_new.png" alt="Psihologie Sportivă"
@@ -99,9 +91,165 @@
                 </div>
             </div>
 
+            <!-- Poster Beneficii -->
+            <div style="margin-top: 4rem; display: flex; justify-content: center;">
+                <img src="images/poster-beneficii-psihologie-sportiva.png"
+                    alt="Cine beneficiază de psihologia sportivă?"
+                    style="max-width: 900px; width: 100%; height: auto; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+            </div>
+
+            <div style="margin-top: 5rem;">
+                <h2 class="section-title text-center">Articole și Perspective</h2>
+
+                <div class="services-grid" style="margin-top: 3rem;">
+                    <!-- Article 1 -->
+                    <article class="article-card">
+                        <div class="article-image">
+                            <img src="images/resilience.png" alt="Pregătire Mentală"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Importanța pregătirii mentale în sportul de performanță</h3>
+                            <p class="article-excerpt">În momentele decisive, nu corpul este cel care cedează primul, ci
+                                mintea. Află cum felul în care gândești influențează direct performanța fizică.</p>
+                            <div class="article-full-text" style="display: none;">
+                                <p><strong>Mintea este atletul</strong><br>În sportul de performanță vorbim mult despre
+                                    forță, tehnică, rezistență și antrenament fizic. Și totuși, în momentele decisive –
+                                    competiții, presiune, mize mari – nu corpul este cel care cedează primul, ci mintea.
+                                </p>
+                                <p>Felul în care gândești influențează direct felul în care te simți și, implicit, modul
+                                    în care îți accesezi resursele fizice. Performanța apare atunci când mintea și
+                                    corpul lucrează în aceeași direcție.</p>
+                                <p><strong>Fundamentul forței mentale: responsabilitatea și
+                                        atitudinea</strong><br>Pregătirea mentală începe cu asumarea responsabilității.
+                                    Sportivul care evoluează este cel care își asumă alegerile, reacțiile și
+                                    comportamentele sale, fără a căuta explicații sau vinovați în exterior.</p>
+                                <p>Un alt pilon de bază este atitudinea, pentru că performanța urmează atitudinea. O
+                                    atitudine sănătoasă oferă perseverență în fața dificultăților, claritate și
+                                    disponibilitatea de a învăța din eșecuri.</p>
+                                <p><strong>Presiunea competițională și mentalitatea de luptător</strong><br>Diferența
+                                    dintre sportivii care se blochează și cei care performează este adesea una de
+                                    mentalitate. Mentalitatea de luptător presupune asumarea riscului, acceptarea
+                                    posibilității eșecului și refuzul de a intra în rolul de victimă.</p>
+                                <p><strong>Focus pe proces, nu doar pe rezultat</strong><br>Rezultatele sunt importante,
+                                    dar nu sunt pe deplin sub controlul sportivului. În schimb, procesul zilnic de
+                                    pregătire este.</p>
+                                <p style="font-style: italic; font-size: 0.85rem; margin-top: 1.5rem;">Text inspirat din
+                                    principiile prezentate în cartea Changing Your Story – Bill Beswick</p>
+                            </div>
+                            <button class="read-more-btn"
+                                style="background: none; border: none; color: var(--color-primary); font-weight: 600; cursor: pointer; padding: 0; margin-top: 1rem;">Citește
+                                tot articolul →</button>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card">
+                        <div class="article-image">
+                            <img src="images/therapy-sports.jpg" alt="Emoții în Sport"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Emoțiile în sport – dușman sau aliat?</h3>
+                            <p class="article-excerpt">Emoțiile sunt inevitabile – însă modul în care sportivul se
+                                raportează la ele face diferența dintre blocaj și performanță de vârf.</p>
+                            <div class="article-full-text" style="display: none;">
+                                <p><strong>Cheia este autocontrolul</strong><br>Sportul de performanță nu înseamnă doar
+                                    mișcare, ci mișcare însoțită de emoție. Emoțiile sunt inevitabile – însă modul în
+                                    care sportivul se raportează la ele face diferența.</p>
+                                <p><strong>Când emoțiile devin dușman</strong><br>Fără autocontrol, sportivul riscă să
+                                    devină prizonierul emoțiilor sale. Un adevărat „tu versus tu", în care gândurile
+                                    negative ajung să domine performanța.</p>
+                                <p><strong>Când emoțiile devin aliat</strong><br>Autocontrolul emoțional permite
+                                    transformarea lor în resursă. Sportivii de elită învață să gestioneze emoțiile, nu
+                                    să reacționeze impulsiv la ele.</p>
+                                <p><strong>Tehnici simple de autocontrol:</strong><br>1. Reîncadrarea situației ca
+                                    provocare, nu amenințare.<br>2. Mentalitatea de luptător (asumarea
+                                    controlului).<br>3. Tehnica semaforului (revenirea rapidă la "verde" - stare de
+                                    control).<br>4. Ieșirea din perfecționism.</p>
+                                <p style="font-style: italic; font-size: 0.85rem; margin-top: 1.5rem;">Text inspirat din
+                                    principiile prezentate în cartea Changing Your Story – Bill Beswick</p>
+                            </div>
+                            <button class="read-more-btn"
+                                style="background: none; border: none; color: var(--color-primary); font-weight: 600; cursor: pointer; padding: 0; margin-top: 1rem;">Citește
+                                tot articolul →</button>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card">
+                        <div class="article-image">
+                            <img src="images/psihologie_sportiva_new.png" alt="Pentru cine este programul"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Pentru cine este acest program?</h3>
+                            <p class="article-excerpt">Performanța sportivă nu înseamnă doar antrenament fizic și
+                                tehnică. De multe ori, diferența dintre „pot mai mult" și „m-am blocat"este una
+                                mentală.</p>
+                            <div class="article-full-text" style="display: none;">
+                                <p>Programul de psihologie sportivă este creat pentru cei care își doresc să își
+                                    înțeleagă mai bine mintea, să gestioneze presiunea și să își valorifice potențialul
+                                    real, indiferent de nivelul la care se află.</p>
+
+                                <p><strong>🏅 Sportivi de performanță (juniori și seniori)</strong><br>Acest program se
+                                    adresează sportivilor care se antrenează constant, participă la competiții și simt
+                                    presiunea performanței. Este potrivit pentru sportivii care:</p>
+                                <ul style="margin-left: 1rem; margin-bottom: 1rem;">
+                                    <li>se confruntă cu anxietate înainte sau în timpul competițiilor</li>
+                                    <li>simt că „știu ce au de făcut, dar nu le iese" în momentele-cheie</li>
+                                    <li>au dificultăți de concentrare, încredere sau motivație</li>
+                                    <li>trec prin eșecuri, accidentări sau perioade de stagnare</li>
+                                    <li>vor să își construiască o mentalitate stabilă, de lungă durată</li>
+                                </ul>
+
+                                <p><strong>🏃‍♂️ Sportivi amatori care vor să își depășească limitele</strong><br>Mulți
+                                    sportivi amatori se lovesc de blocaje mentale care îi împiedică să evolueze. Acest
+                                    program este potrivit pentru cei care:</p>
+                                <ul style="margin-left: 1rem; margin-bottom: 1rem;">
+                                    <li>se autosabotează în competiții sau evenimente sportive</li>
+                                    <li>renunță ușor atunci când apare disconfortul</li>
+                                    <li>au obiective clare, dar dificultăți în a le atinge</li>
+                                    <li>vor să își îmbunătățească disciplina, motivația și consecvența</li>
+                                </ul>
+
+                                <p><strong>👔 Antrenori și părinți de sportivi</strong><br>Performanța sportivului este
+                                    influențată semnificativ de mediul în care se dezvoltă. Programul este util pentru:
+                                </p>
+                                <ul style="margin-left: 1rem;">
+                                    <li>antrenori care doresc să înțeleagă mai bine reacțiile emoționale ale sportivilor
+                                    </li>
+                                    <li>părinți care vor să își susțină copiii fără a pune presiune excesivă</li>
+                                    <li>adulți care vor să comunice mai eficient cu sportivii aflați în formare</li>
+                                </ul>
+                            </div>
+                            <button class="read-more-btn"
+                                style="background: none; border: none; color: var(--color-primary); font-weight: 600; cursor: pointer; padding: 0; margin-top: 1rem;">Citește
+                                tot articolul →</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
             <div class="text-center" style="margin-top: 4rem;">
                 <a href="contact.html" class="btn btn-primary">Vreau să îmi antrenez mintea</a>
             </div>
+
+            <script>
+                document.querySelectorAll('.read-more-btn').forEach(button => {
+                    button.addEventListener('click', function () {
+                        const content = this.previousElementSibling;
+                        const isExpanded = content.style.display === 'block';
+
+                        content.style.display = isExpanded ? 'none' : 'block';
+                        this.textContent = isExpanded ? 'Citește tot articolul →' : 'Închide articolul ↑';
+
+                        if (!isExpanded) {
+                            content.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        }
+                    });
+                });
+            </script>
         </div>
     </section>
 
@@ -109,27 +257,41 @@
     <footer>
         <div class="container">
             <div class="footer-grid">
+                <!-- Col 1: Map -->
                 <div class="footer-col">
-                    <h4>Psihologul Tău</h4>
-                    <p>Cabinet Individual de Psihologie<br>București, România</p>
+                    <div class="footer-map-container">
+                        <a href="https://www.google.com/maps/place/Strada+Nicolae+Iorga+6,+Bra%C8%99ov+500057,+Rom%C3%A2nia/@45.646532,25.594391,13z/data=!4m6!3m5!1s0x40b35b7907064365:0x862333d178ecefff!8m2!3d45.6465324!4d25.5943915!16s%2Fg%2F11bw3_378p?hl=ro-RO&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <img src="images/harta-brasov.png" alt="Harta Brasov">
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Link-uri Rapide</h4>
-                    <ul>
-                        <li><a href="index.html">Acasă</a></li>
-                        <li><a href="despre-mine.html">Despre Mine</a></li>
-                        <li><a href="servicii.html">Servicii ?i Pre?uri</a></li>
-                        <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+
+                <!-- Col 2: Address -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Mă găsești ușor la adresa:</h4>
+                    <div class="footer-contact-info">
+                        <p>Str. Nicolae Iorga, nr. 6,<br>Brașov</p>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="mailto:contact@psihologultau.ro">contact@psihologultau.ro</a></li>
-                        <li><a href="tel:+40700000000">+40 700 000 000</a></li>
-                        <li>Luni - Vineri: 09:00 - 19:00</li>
-                    </ul>
+
+                <!-- Col 3: Contact -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Date de contact:</h4>
+                    <div class="footer-contact-info">
+                        <p>lorina_sandu@yahoo.com</p>
+                        <p>+40 735 845 786</p>
+                    </div>
+                </div>
+
+                <!-- Col 4: Actions -->
+                <div class="footer-col footer-actions">
+                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
                 </div>
             </div>
             <div class="copyright">

@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -116,8 +117,9 @@
 
                 <!-- Article 1 -->
                 <article class="article-card">
-                    <div class="article-image">
-                        <span>[Reziliență]</span>
+                    <div class="article-image" style="padding: 0; background: none;">
+                        <img src="images/resilience.png" alt="Reziliență"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
                         <div class="article-date">23 Mai 2025</div>
@@ -131,8 +133,9 @@
 
                 <!-- Article 2 -->
                 <article class="article-card">
-                    <div class="article-image">
-                        <span>[Echilibru]</span>
+                    <div class="article-image" style="padding: 0; background: none;">
+                        <img src="images/balance.png" alt="Echilibru Emoțional"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
                         <div class="article-date">23 Mai 2025</div>
@@ -146,8 +149,9 @@
 
                 <!-- Article 3 -->
                 <article class="article-card">
-                    <div class="article-image">
-                        <span>[Adlerian]</span>
+                    <div class="article-image" style="padding: 0; background: none;">
+                        <img src="images/adlerian.png" alt="Psihoterapie Adleriană"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
                         <div class="article-date">11 Mai 2025</div>
@@ -161,8 +165,9 @@
 
                 <!-- Article 4 -->
                 <article class="article-card">
-                    <div class="article-image">
-                        <span>[Curaj]</span>
+                    <div class="article-image" style="padding: 0; background: none;">
+                        <img src="images/growth.png" alt="Curaj și Dezvoltare"
+                            style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
                         <div class="article-date">11 Mai 2025</div>
@@ -174,6 +179,7 @@
                     </div>
                 </article>
 
+
             </div>
         </div>
     </section>
@@ -182,28 +188,41 @@
     <footer>
         <div class="container">
             <div class="footer-grid">
+                <!-- Col 1: Map -->
                 <div class="footer-col">
-                    <h4>Psihologul Tău</h4>
-                    <p>Cabinet Individual de Psihologie<br>București, România</p>
+                    <div class="footer-map-container">
+                        <a href="https://www.google.com/maps/place/Strada+Nicolae+Iorga+6,+Bra%C8%99ov+500057,+Rom%C3%A2nia/@45.646532,25.594391,13z/data=!4m6!3m5!1s0x40b35b7907064365:0x862333d178ecefff!8m2!3d45.6465324!4d25.5943915!16s%2Fg%2F11bw3_378p?hl=ro-RO&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <img src="images/harta-brasov.png" alt="Harta Brasov">
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Link-uri Rapide</h4>
-                    <ul>
-                        <li><a href="index.html">Acasă</a></li>
-                        <li><a href="despre-mine.html">Despre Mine</a></li>
-                        <li><a href="servicii.html">Servicii și Prețuri</a></li>
-                        <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
-                        <li><a href="resurse.html">Resurse</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+
+                <!-- Col 2: Address -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Mă găsești ușor la adresa:</h4>
+                    <div class="footer-contact-info">
+                        <p>Str. Nicolae Iorga, nr. 6,<br>Brașov</p>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="mailto:contact@psihologultau.ro">contact@psihologultau.ro</a></li>
-                        <li><a href="tel:+40700000000">+40 700 000 000</a></li>
-                        <li>Luni - Vineri: 09:00 - 19:00</li>
-                    </ul>
+
+                <!-- Col 3: Contact -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Date de contact:</h4>
+                    <div class="footer-contact-info">
+                        <p>lorina_sandu@yahoo.com</p>
+                        <p>+40 735 845 786</p>
+                    </div>
+                </div>
+
+                <!-- Col 4: Actions -->
+                <div class="footer-col footer-actions">
+                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
                 </div>
             </div>
             <div class="copyright">
