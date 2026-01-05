@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reziliența, arta de a te ridica din nou | Psihologul Tău</title>
+    <meta name="description"
+        content="Descoperă cum să îți consolidezi reziliența emoțională prin autocompasiune, gândire adaptativă și tehnici simple de autoreglare zilnică.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific styles for single article page to match aesthetics */
+        .article-hero {
+            height: 60vh;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            margin-bottom: 4rem;
+        }
+
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            /* overlay for readability */
+            z-index: 1;
+        }
+
+        .article-hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+            max-width: 800px;
+        }
+
+        .article-hero-title {
+            font-size: 3rem;
+            font-family: var(--font-heading);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .article-body {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-text);
+            padding-bottom: 4rem;
+        }
+
+        .article-body h3 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            font-size: 1.5rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-body ul,
+        .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .back-nav {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .back-link {
+            color: var(--color-secondary);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--color-primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);">
+        <div class="container nav-container">
+            <div class="logo-group">
+                <a href="index.html">
+                    <img src="images/logo_main.png" alt="Psihologul Tău" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-mine.html">Despre Mine</a></li>
+                    <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                    <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                    <li><a href="resurse.html" class="active">Resurse</a></li>
+                    <li><a href="intrebari.html">Întrebări Frecvente</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article Hero -->
+    <!-- Page Header -->
+    <!-- Article Hero -->
+    <div class="article-hero">
+        <img src="images/resilience_hero.jpg" alt="Reziliență" class="article-hero-bg">
+        <div class="article-hero-content">
+            <h1 class="article-hero-title" style="color: #f8f9fa; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Reziliența,
+                arta de a te ridica din nou: cum să o
+                înveți și să o exersezi</h1>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="section" style="padding-top: 0;">
+        <div class="container article-body">
+            <h2
+                style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--color-primary); line-height: 1.3; text-align: left;">
+                Puterea
+                Rezilienței:<br> Cum să îți consolidezi sănătatea emoțională prin autocompasiune și gândire adaptativă
+            </h2>
+
+            <p class="lead"
+                style="font-size: 1.25rem; color: #555; margin-bottom: 2rem; font-weight: 500; text-align: left;">
+                Într-o lume în care schimbarea este singura constantă, reziliența emoțională devine o „superputere” de
+                bază. Nu înseamnă să ignori durerea sau să fii mereu optimist, ci să înveți să navighezi prin provocări
+                cu flexibilitate și compasiune față de tine însuți. Iată cum poți cultiva această calitate prin
+                conexiunea dintre corp, minte și emoții.
+            </p>
+
+            <h3>1. Ce este reziliența emoțională</h3>
+            <p>Reziliența este capacitatea de a te adapta la stres, de a te recupera din înfrângeri și de a rămâne
+                conectat la resursele interioare chiar și în momente dificile. Cercetările arată că persoanele
+                reziliente:</p>
+            <ul>
+                <li>Au niveluri mai scăzute de inflamație cronică (legată de stres),</li>
+                <li>Folosesc emoțiile ca pe niște ghizi, nu ca pe obstacole,</li>
+                <li>Dezvoltă gândire flexibilă („Pot încerca altă abordare” în loc de „Nu se poate”).</li>
+            </ul>
+
+            <h3>2. Autocompasiunea: baza rezilienței</h3>
+            <p>A fi dur cu tine însuți în momente dificile este ca și atunci când încerci să stingi un incendiu cu
+                benzina. Autocompasiunea înseamnă să te tratezi cu aceeași înțelegere cu care ai sprijini un prieten
+                apropiat. Departe de a fi o formă de slăbiciune, este fundamentul unei relații sănătoase cu tine însuți.
+            </p>
+            <ul>
+                <li><strong>Exercițiu practic:</strong> Scrie-ți o scrisoare cum ai consola un prieten apropiat într-o
+                    situație similară. Apoi, adresează-ți aceleași cuvinte ție însuți.</li>
+                <li><strong>De ce funcționează:</strong> Activează sistemul de calmare al creierului (centrat în
+                    cortexul prefrontal), reducând anxietatea.</li>
+            </ul>
+
+            <h3>3. Gândirea adaptativă: rescrie povestea</h3>
+            <p>Mintea are tendința să exagereze riscurile în perioade de stres. Gândirea adaptativă presupune să observi
+                aceste distorsiuni și să le înlocuiești cu alternative realiste și constructive.</p>
+            <p>Întreabă-te: <em>„Este aceasta o certitudine sau doar o predicție negativă?”</em></p>
+            <p>Caută dovezi: <em>„Am mai trecut prin situații dificile — cum am reușit atunci?”</em></p>
+            <p>🧠 <em>Acest proces antrenează cortexul prefrontal, regiunea cerebrală responsabilă pentru luarea
+                    deciziilor și reglarea emoțiilor.</em></p>
+
+            <h3>4. Corpul ca aliat în stres acut</h3>
+            <p>Când emoțiile devin copleșitoare, corpul poate fi ancoră:</p>
+            <p><strong>Tehnică de grounding:</strong></p>
+            <ol>
+                <li>Atinge cu mâna ta un obiect rece (pahar, monedă) și concentrează-te pe senzația lui.</li>
+                <li>Numără 5 lucruri pe care le vezi, 4 pe care le auzi, 3 pe care le poți atinge.</li>
+            </ol>
+            <p>🎧 <em>Această tehnică mută atenția de la starea de alarmă contribuind la calmarea minții și recăpătarea
+                    echilibrului emoțional</em></p>
+
+            <h3>5. Când să ceri ajutor?</h3>
+            <p>Reziliența nu înseamnă să faci totul singur. Semnale că ai nevoie de suport:</p>
+            <ul>
+                <li>Simți că emoțiile îți controlează deciziile zilnice,</li>
+                <li>Te izolezi în mod constant de ceilalți,</li>
+                <li>Apelezi la mecanisme nesănătoase (ex.: alcool, mâncare compulsivă).</li>
+            </ul>
+
+            <div
+                style="margin-top: 3rem; margin-bottom: 2rem; padding: 2rem; background-color: var(--color-light-gray); border-radius: 8px;">
+                <p><strong>Fiecare moment dificil este o oportunitate de a exersa „mușchii” emoționali. Permite-ți să
+                        greșești, să asculți de corp și să ceri ajutor când ai nevoie.</strong></p>
+                <div style="margin-top: 1.5rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.5rem; font-family: var(--font-heading);">
+                        Încheiere: reziliența se cultivă, nu se naște</h4>
+                    <p>Cu căldură și credință în capacitatea ta de a crește<br>
+                        <strong>Psihoterapeut Lorina Sandu</strong>
+                    </p>
+                </div>
+            </div>
+
+            <p><em>PS: Dacă ți-a plăcut acest articol, împărtășește-l cu cineva care ar beneficia de el. Uneori, cea mai
+                    puternică terapie este conexiunea umană.</em></p>
+
+            <div class="back-nav">
+                <a href="resurse.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Înapoi la Resurse
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Map -->
+                <div class="footer-col">
+                    <div class="footer-map-container">
+                        <a href="https://www.google.com/maps/place/Strada+Nicolae+Iorga+6,+Bra%C8%99ov+500057,+Rom%C3%A2nia/@45.646532,25.594391,13z/data=!4m6!3m5!1s0x40b35b7907064365:0x862333d178ecefff!8m2!3d45.6465324!4d25.5943915!16s%2Fg%2F11bw3_378p?hl=ro-RO&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <img src="images/harta-brasov.png" alt="Harta Brasov">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Address -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Mă găsești ușor la adresa:</h4>
+                    <div class="footer-contact-info">
+                        <p>Str. Nicolae Iorga, nr. 6,<br>Brașov</p>
+                    </div>
+                </div>
+
+                <!-- Col 3: Contact -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Date de contact:</h4>
+                    <div class="footer-contact-info">
+                        <p>lorina_sandu@yahoo.com</p>
+                        <p>+40 735 845 786</p>
+                    </div>
+                </div>
+
+                <!-- Col 4: Actions -->
+                <div class="footer-col footer-actions">
+                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Psihologul Tău. Toate drepturile rezervate.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

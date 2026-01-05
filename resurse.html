@@ -74,6 +74,31 @@
             font-weight: 600;
             font-size: 0.9rem;
         }
+
+        .article-full-text {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            color: #444;
+            line-height: 1.7;
+        }
+
+        .article-full-text h3 {
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-primary);
+        }
+
+        .article-full-text p {
+            margin-bottom: 1rem;
+        }
+
+        .article-full-text ul,
+        .article-full-text ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
     </style>
 </head>
 
@@ -103,84 +128,92 @@
     </header>
 
     <!-- Page Header -->
-    <section class="section" style="background-color: var(--color-light-gray); padding-bottom: 2rem;">
+    <!-- Page Header -->
+    <section class="section"
+        style="background-color: var(--color-light-gray); padding-top: 1.5rem; padding-bottom: 1rem;">
         <div class="container text-center">
-            <h1 class="section-title">Resurse și Reflecții</h1>
-            <p class="lead">Gânduri, articole și instrumente pentru călătoria ta interioară.</p>
+            <h1 class="section-title" style="margin-bottom: 0.3rem;">Resurse și Reflecții</h1>
+            <p class="lead" style="margin-top: 0; margin-bottom: 0;">Gânduri, articole și instrumente pentru călătoria
+                ta interioară.</p>
         </div>
     </section>
 
     <!-- Articles Grid -->
     <section class="section">
         <div class="container">
-            <div class="services-grid"> <!-- Reusing grid layout -->
+            <div class="articles-layout-grid"> <!-- Reusing grid layout -->
 
                 <!-- Article 1 -->
                 <article class="article-card">
                     <div class="article-image" style="padding: 0; background: none;">
-                        <img src="images/resilience.png" alt="Reziliență"
+                        <img src="images/resilience_hero.jpg" alt="Reziliență"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
-                        <div class="article-date">23 Mai 2025</div>
+
                         <h2 class="article-title">Reziliența, arta de a te ridica din nou</h2>
                         <p class="article-excerpt">Descoperă cum să îți consolidezi reziliența emoțională prin
                             autocompasiune, gândire adaptivă și tehnici simple de autoreglare zilnică.</p>
-                        <a href="https://psihologultau.ro/resurse1.html" class="read-more" target="_blank">Citește
-                            articolul original →</a>
+                        <a href="rezilienta.html" class="read-more-btn"
+                            style="text-decoration: none; color: var(--color-primary); font-weight: 600; padding: 0; margin-top: auto; align-self: flex-start;">Citește
+                            tot articolul →</a>
                     </div>
                 </article>
 
                 <!-- Article 2 -->
                 <article class="article-card">
                     <div class="article-image" style="padding: 0; background: none;">
-                        <img src="images/balance.png" alt="Echilibru Emoțional"
+                        <img src="images/emotional_health_hero.jpg" alt="Echilibru Emoțional"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
-                        <div class="article-date">23 Mai 2025</div>
+
                         <h2 class="article-title">Sănătatea emoțională, respirație, gânduri și relații</h2>
                         <p class="article-excerpt">Corpul, mintea, emoțiile și relațiile tale formează un sistem
                             interconectat. Echilibrul interior influențează tot ce trăiești.</p>
-                        <a href="https://psihologultau.ro/resurse2.html" class="read-more" target="_blank">Citește
-                            articolul original →</a>
+                        <a href="sanatate-emotionala.html" class="read-more-btn"
+                            style="text-decoration: none; color: var(--color-primary); font-weight: 600; padding: 0; margin-top: auto; align-self: flex-start;">Citește
+                            tot articolul →</a>
                     </div>
                 </article>
 
                 <!-- Article 3 -->
                 <article class="article-card">
                     <div class="article-image" style="padding: 0; background: none;">
-                        <img src="images/adlerian.png" alt="Psihoterapie Adleriană"
+                        <img src="images/adlerian_hero_new.jpg" alt="Psihoterapie Adleriană"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
-                        <div class="article-date">11 Mai 2025</div>
+
                         <h2 class="article-title">Psihoterapia adleriană</h2>
                         <p class="article-excerpt">Despre definirea scopurilor individuale și găsirea soluțiilor de
                             viitor. O abordare care pune accent pe apartenență și curaj.</p>
-                        <a href="https://psihologultau.ro/resurse3.html" class="read-more" target="_blank">Citește
-                            articolul original →</a>
+                        <a href="psihoterapie-adleriana.html" class="read-more-btn"
+                            style="text-decoration: none; color: var(--color-primary); font-weight: 600; padding: 0; margin-top: auto; align-self: flex-start;">Citește
+                            tot articolul →</a>
                     </div>
                 </article>
 
                 <!-- Article 4 -->
                 <article class="article-card">
                     <div class="article-image" style="padding: 0; background: none;">
-                        <img src="images/growth.png" alt="Curaj și Dezvoltare"
+                        <img src="images/therapy_evolution_hero.jpg" alt="Curaj și Dezvoltare"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="article-content">
-                        <div class="article-date">11 Mai 2025</div>
+
                         <h2 class="article-title">Terapia nu este doar pentru crize</h2>
                         <p class="article-excerpt">E și pentru oameni curajoși care vor mai mult de la viață. Un
                             instrument pentru dezvoltare și autocunoaștere profundă.</p>
-                        <a href="https://psihologultau.ro/resurse4.html" class="read-more" target="_blank">Citește
-                            articolul original →</a>
+                        <a href="terapia-evolutiei.html" class="read-more-btn"
+                            style="text-decoration: none; color: var(--color-primary); font-weight: 600; padding: 0; margin-top: auto; align-self: flex-start;">Citește
+                            tot articolul →</a>
                     </div>
                 </article>
 
-
             </div>
+
+
         </div>
     </section>
 

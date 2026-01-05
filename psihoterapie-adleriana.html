@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psihoterapia adleriană | Psihologul Tău</title>
+    <meta name="description"
+        content="Despre definirea scopurilor individuale și găsirea soluțiilor de viitor. O abordare care pune accent pe apartenență și curaj.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific styles for single article page to match aesthetics */
+        .article-hero {
+            height: 60vh;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            margin-bottom: 4rem;
+        }
+
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            /* overlay for readability */
+            z-index: 1;
+        }
+
+        .article-hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+            max-width: 800px;
+        }
+
+        .article-hero-title {
+            font-size: 3rem;
+            font-family: var(--font-heading);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .article-body {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-text);
+            padding-bottom: 4rem;
+        }
+
+        .article-body h3 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            font-size: 1.5rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-body ul,
+        .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .back-nav {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .back-link {
+            color: var(--color-secondary);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--color-primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);">
+        <div class="container nav-container">
+            <div class="logo-group">
+                <a href="index.html">
+                    <img src="images/logo_main.png" alt="Psihologul Tău" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-mine.html">Despre Mine</a></li>
+                    <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                    <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                    <li><a href="resurse.html" class="active">Resurse</a></li>
+                    <li><a href="intrebari.html">Întrebări Frecvente</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article Hero -->
+    <!-- Page Header -->
+    <!-- Article Hero -->
+    <div class="article-hero">
+        <img src="images/adlerian_hero_new.jpg" alt="Psihoterapie Adleriană" class="article-hero-bg">
+        <div class="article-hero-content">
+            <h1 class="article-hero-title" style="color: #f8f9fa; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                Psihoterapia adleriană</h1>
+            <p class="article-hero-subtitle"
+                style="color: #e9ecef; font-size: 1.5rem; margin-top: 0.5rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">
+                Despre definirea scopurilor individuale și găsirea soluțiilor de viitor</p>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="section" style="padding-top: 0;">
+        <div class="container article-body">
+            <h2
+                style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--color-primary); line-height: 1.3; text-align: left;">
+                Descoperă
+                puterea psihoterapiei adleriene:<br> un drum spre conștientizare și schimbare autentică</h2>
+
+            <p style="margin-bottom: 2rem; color: var(--color-text); text-align: left;">
+                Bun venit în spațiul tău de reflecție și transformare! Dacă ai ajuns aici, probabil cauți un răspuns, un
+                sprijin sau o cale spre o viață mai autentică și satisfăcătoare. Psihoterapia adleriană poate fi cheia
+                care te ajută să înțelegi povestea ta, să-ți redescoperi puterile interne și să construiești un viitor
+                aliniat cu valorile tale.
+            </p>
+
+            <h3>Ce este psihoterapia adleriană?</h3>
+            <p>Psihoterapia adleriană, inspirată de psihologul Alfred Adler, se concentrează pe înțelegerea scopurilor
+                individuale, a modului în care percepem lumea și a modului în care alegem să acționăm în viață. Spre
+                deosebire de alte abordări care se axează pe trecut, terapia adleriană este orientată spre soluții și
+                viitor, evidențiind puterea fiecăruia de a-și crea o viață plină de sens.</p>
+            <p>Ca psihoterapeut adlerian, lucrez cu tine pentru a:</p>
+            <ul>
+                <li><strong>Explora convingerile și valorile</strong> care îți ghidează comportamentul.</li>
+                <li><strong>Identifica „stilul de viață”</strong> (modul tău unic de a percepe și interacționa cu
+                    lumea).</li>
+                <li><strong>Înțelege dinamica relațiilor</strong> și cum aceasta influențează alegerile tale.</li>
+                <li><strong>Descoperi resursele interne</strong> pentru a depăși obstacole și a-ți atinge potențialul.
+                </li>
+            </ul>
+
+            <h3>De ce să alegi psihoterapia adleriană?</h3>
+            <p><strong>Abordare holistică</strong><br>
+                Adler a crezut că suntem ființe sociale, motivate de dorința de apartenență și semnificație. Prin
+                terapia adleriană, înțelegem cum comunitatea, munca și dragostea influențează fericirea ta și cum poți
+                cultiva relații mai sănătoase.</p>
+
+            <p><strong>Orientare spre viitor</strong><br>
+                Chiar dacă explorăm uneori amintiri sau experiențe din copilărie, scopul este întotdeauna să identificăm
+                cum poți construi un viitor mai bun. Punem accent pe schimbare practică, nu doar pe analiză.</p>
+
+            <p><strong>Responsabilitate și putere personală</strong><br>
+                Tehnici precum încurajarea și reinterpretarea situațiilor te ajută să-ți asumi controlul asupra
+                alegerilor tale. Nu suntem victime ale circumstanțelor – avem puterea de a ne remodela viața.</p>
+
+            <p><strong>Flexibilitate și adaptabilitate</strong><br>
+                Fiecare persoană este unică, iar terapia se personalizează în funcție de nevoile tale. Folosim
+                instrumente precum:</p>
+            <ul>
+                <li>Întrebări orientate spre scop („Ce ai vrea să fie diferit în viața ta?”)</li>
+                <li>Analiza viselor și a amintirilor timpurii (pentru a descoperi modele inconștiente)</li>
+                <li>Exerciții practice pentru a aplica schimbările în viața de zi cu zi.</li>
+            </ul>
+
+            <h3>Cum funcționează psihoterapia adleriană?</h3>
+            <p>Procesul terapeutic adlerian este colaborativ și respectuos. Nu există „analiză rece” – suntem parteneri
+                în explorarea și transformarea ta.</p>
+
+            <h4>1. Faza de evaluare</h4>
+            <p>Împreună, vom explora:</p>
+            <ul>
+                <li><strong>Povestea ta de viață:</strong> Ce experiențe au modelat convingerile tale?</li>
+                <li><strong>Stilul tău de viață:</strong> Cum abordezi provocările? Ce strategii (uneori inadaptate)
+                    folosești?</li>
+                <li><strong>Scopurile nevăzute:</strong> Uneori, comportamentele noastre „problemă” au un scop ascuns
+                    (ex.: evitarea eșecului, căutarea atenției).</li>
+            </ul>
+
+            <h4>2. Faza de conștientizare</h4>
+            <p>Prin dialog, întrebări și exerciții, vei realiza:</p>
+            <ul>
+                <li>Cum percepția ta influențează emoțiile și acțiunile.</li>
+                <li>Ce alternative ai la vechile tale modele.</li>
+                <li>Cum să-ți folosești punctele forte pentru a progresa.</li>
+            </ul>
+
+            <h4>3. Faza de acțiune</h4>
+            <p>Psihoterapia adleriană nu se oprește la vorbă – te încurajez să faci pași concrete spre schimbare. De la
+                stabilirea unor obiective mici până la exersarea unor noi comportamente, vom lucra împreună pentru
+                rezultate durabile.</p>
+
+            <h3>Pentru cine este psihoterapia adleriană?</h3>
+            <ul>
+                <li>Cei care se luptă cu anxietate, depresie sau stres cronic și doresc o abordare practică.</li>
+                <li>Persoanele care simt că viața le lipsește sensul sau direcția.</li>
+                <li>Cei care întâmpină dificultăți în relații (de cuplu, familie, profesionale).</li>
+                <li>Oameni care vor să se înțeleagă mai bine și să trăiască autentic.</li>
+            </ul>
+
+            <div
+                style="margin-top: 3rem; margin-bottom: 2rem; padding: 2rem; background-color: var(--color-light-gray); border-radius: 8px;">
+                <h4 style="color: var(--color-primary); margin-bottom: 0.5rem; font-family: var(--font-heading);">Ești
+                    gata să începi?</h4>
+                <p>Primul pas – programarea unei consultații inițiale – este cel mai curajos. Împreună, vom explora
+                    provocările tale într-un mediu sigur, fără judecăți, și vom construi un plan adaptat nevoilor tale.
+                </p>
+                <div style="margin-top: 1.5rem; text-align: center; font-style: italic; color: #555;">
+                    <p style="font-size: 1.2rem;">💡 „Nu suntem determinați de experiențele noastre, ci de sensul pe
+                        care îl dăm lor.”</p>
+                    <p style="font-weight: 600;">— Alfred Adler</p>
+                </div>
+            </div>
+
+            <div class="back-nav">
+                <a href="resurse.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Înapoi la Resurse
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Map -->
+                <div class="footer-col">
+                    <div class="footer-map-container">
+                        <a href="https://www.google.com/maps/place/Strada+Nicolae+Iorga+6,+Bra%C8%99ov+500057,+Rom%C3%A2nia/@45.646532,25.594391,13z/data=!4m6!3m5!1s0x40b35b7907064365:0x862333d178ecefff!8m2!3d45.6465324!4d25.5943915!16s%2Fg%2F11bw3_378p?hl=ro-RO&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <img src="images/harta-brasov.png" alt="Harta Brasov">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Address -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Mă găsești ușor la adresa:</h4>
+                    <div class="footer-contact-info">
+                        <p>Str. Nicolae Iorga, nr. 6,<br>Brașov</p>
+                    </div>
+                </div>
+
+                <!-- Col 3: Contact -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Date de contact:</h4>
+                    <div class="footer-contact-info">
+                        <p>lorina_sandu@yahoo.com</p>
+                        <p>+40 735 845 786</p>
+                    </div>
+                </div>
+
+                <!-- Col 4: Actions -->
+                <div class="footer-col footer-actions">
+                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Psihologul Tău. Toate drepturile rezervate.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -80,10 +80,13 @@
     </header>
 
     <!-- Page Header -->
-    <section class="section" style="background-color: var(--color-light-gray); padding-bottom: 2rem;">
+    <!-- Page Header -->
+    <section class="section"
+        style="background-color: var(--color-light-gray); padding-top: 1.5rem; padding-bottom: 1rem;">
         <div class="container text-center">
-            <h1 class="section-title">Servicii și Prețuri</h1>
-            <p class="lead">Soluții personalizate pentru nevoile tale emoționale și relaționale.</p>
+            <h1 class="section-title" style="margin-bottom: 0.3rem;">Servicii și Prețuri</h1>
+            <p class="lead" style="margin-top: 0; margin-bottom: 0;">Soluții personalizate pentru nevoile tale
+                emoționale și relaționale.</p>
         </div>
     </section>
 
@@ -91,67 +94,69 @@
     <section class="section">
         <div class="container">
 
-            <!-- Service 1: Individual -->
-            <article class="service-detail-card" style="grid-template-columns: 1fr; gap: 1rem;">
-                <img src="images/therapy_individual_new.png" alt="Psihoterapie Individuală"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
-                <div class="service-content">
-                    <h3>Psihoterapie Individuală</h3>
-                    <p style="margin: 1rem 0;">Un spațiu dedicat ție, în care explorăm dificultățile cu care te
-                        confrunți, fie că este vorba de anxietate, depresie, stres, traume sau pur și simplu dorința de
-                        a te cunoaște mai bine.</p>
-                    <ul style="margin-bottom: 1.5rem; color: #555;">
-                        <li>✓ Gestionarea emoțiilor intense</li>
-                        <li>✓ Creșterea încrederii în sine</li>
-                        <li>✓ Depășirea blocajelor personale</li>
-                    </ul>
-                </div>
-            </article>
+            <!-- Services Grid -->
+            <div class="services-layout-grid">
+                <!-- Service 1: Individual -->
+                <article class="service-card-vertical">
+                    <img src="images/therapy_individual_new.png" alt="Psihoterapie Individuală" class="service-img">
+                    <div class="service-content">
+                        <h3>Psihoterapie Individuală</h3>
+                        <p style="margin: 1rem 0;">Un spațiu dedicat ție, în care explorăm dificultățile cu care te
+                            confrunți, fie că este vorba de anxietate, depresie, stres, traume sau pur și simplu dorința
+                            de
+                            a te cunoaște mai bine.</p>
+                        <ul style="margin-bottom: 1.5rem; color: #555;">
+                            <li>✓ Gestionarea emoțiilor intense</li>
+                            <li>✓ Creșterea încrederii în sine</li>
+                            <li>✓ Depășirea blocajelor personale</li>
+                        </ul>
+                    </div>
+                </article>
 
-            <!-- Service 2: Couples -->
-            <article class="service-detail-card" style="grid-template-columns: 1fr; gap: 1rem;">
-                <img src="images/therapy_couples_new.png" alt="Terapie de Cuplu"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
-                <div class="service-content">
-                    <h3>Terapie de Cuplu</h3>
-                    <p style="margin: 1rem 0;">Aflați cum să comunicați eficient, să reconstruiți intimitatea și să
-                        navigați prin conflicte într-un mod constructiv. Relația voastră merită o șansă.</p>
-                    <ul style="margin-bottom: 1.5rem; color: #555;">
-                        <li>✓ Îmbunătățirea comunicării</li>
-                        <li>✓ Reconectare emoțională</li>
-                        <li>✓ Gestionarea crizelor sau a infidelității</li>
-                    </ul>
-                </div>
-            </article>
+                <!-- Service 2: Couples -->
+                <article class="service-card-vertical">
+                    <img src="images/therapy_couples_session.jpg" alt="Terapie de Cuplu" class="service-img">
+                    <div class="service-content">
+                        <h3>Terapie de Cuplu</h3>
+                        <p style="margin: 1rem 0;">Aflați cum să comunicați eficient, să reconstruiți intimitatea și să
+                            navigați prin conflicte într-un mod constructiv. Relația voastră merită o șansă.</p>
+                        <ul style="margin-bottom: 1.5rem; color: #555;">
+                            <li>✓ Îmbunătățirea comunicării</li>
+                            <li>✓ Reconectare emoțională</li>
+                            <li>✓ Gestionarea crizelor sau a infidelității</li>
+                        </ul>
+                    </div>
+                </article>
 
-            <!-- Service 3: Online -->
-            <article class="service-detail-card" style="grid-template-columns: 1fr; gap: 1rem;">
-                <img src="images/therapy-online.jpg" alt="Consiliere Online"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
-                <div class="service-content">
-                    <h3>Consiliere Psihologică Online</h3>
-                    <p style="margin: 1rem 0;">Flexibilitate maximă pentru cei care nu pot ajunge la cabinet. Ședințele
-                        online oferă același nivel de profesionalism și suport, din confortul propriei case.</p>
-                    <ul style="margin-bottom: 1.5rem; color: #555;">
-                        <li>✓ Accesibil de oriunde</li>
-                        <li>✓ Orar flexibil</li>
-                        <li>✓ Mediu familiar și confortabil</li>
-                    </ul>
-                </div>
-            </article>
+                <!-- Service 3: Online -->
+                <article class="service-card-vertical">
+                    <img src="images/therapy_online_new.jpg" alt="Consiliere Online" class="service-img">
+                    <div class="service-content">
+                        <h3>Consiliere Psihologică Online</h3>
+                        <p style="margin: 1rem 0;">Flexibilitate maximă pentru cei care nu pot ajunge la cabinet.
+                            Ședințele
+                            online oferă același nivel de profesionalism și suport, din confortul propriei case.</p>
+                        <ul style="margin-bottom: 1.5rem; color: #555;">
+                            <li>✓ Accesibil de oriunde</li>
+                            <li>✓ Orar flexibil</li>
+                            <li>✓ Mediu familiar și confortabil</li>
+                        </ul>
+                    </div>
+                </article>
 
-            <!-- Service 4: Sports -->
-            <article class="service-detail-card"
-                style="border: 2px solid var(--color-primary); grid-template-columns: 1fr; gap: 1rem;">
-                <img src="images/therapy-sports.jpg" alt="Psihologie Sportivă"
-                    style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
-                <div class="service-content">
-                    <h3>Psihologie Sportivă și Performanță</h3>
-                    <p style="margin: 1rem 0;">Serviciu dedicat sportivilor amatori și de performanță care doresc să își
-                        antreneze mintea pentru succes.</p>
-                    <a href="psihologie-sportiva.html" class="btn btn-primary">Detalii complete aici</a>
-                </div>
-            </article>
+                <!-- Service 4: Sports -->
+                <article class="service-card-vertical">
+                    <img src="images/therapy_sports_team.jpg" alt="Psihologie Sportivă" class="service-img">
+                    <div class="service-content">
+                        <h3>Psihologie Sportivă și Performanță</h3>
+                        <p style="margin: 1rem 0;">Serviciu dedicat sportivilor amatori și de performanță care doresc să
+                            își
+                            antreneze mintea pentru succes.</p>
+                        <a href="psihologie-sportiva.html" class="btn btn-primary"
+                            style="margin-top: auto; align-self: flex-start;">Detalii complete aici</a>
+                    </div>
+                </article>
+            </div>
 
             <!-- Pricing Table -->
             <div

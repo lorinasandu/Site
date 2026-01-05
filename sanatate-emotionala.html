@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sănătatea emoțională | Psihologul Tău</title>
+    <meta name="description"
+        content="Corpul, mintea, emoțiile și relațiile tale formează un sistem interconectat. Echilibrul interior influențează tot ce trăiești.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific styles for single article page to match aesthetics */
+        .article-hero {
+            height: 60vh;
+            min-height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            margin-bottom: 4rem;
+        }
+
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            /* overlay for readability */
+            z-index: 1;
+        }
+
+        .article-hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+            max-width: 800px;
+        }
+
+        .article-hero-title {
+            font-size: 3rem;
+            font-family: var(--font-heading);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .article-body {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-text);
+            padding-bottom: 4rem;
+        }
+
+        .article-body h3 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            font-size: 1.5rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-body ul,
+        .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .back-nav {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .back-link {
+            color: var(--color-secondary);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--color-primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);">
+        <div class="container nav-container">
+            <div class="logo-group">
+                <a href="index.html">
+                    <img src="images/logo_main.png" alt="Psihologul Tău" class="logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-mine.html">Despre Mine</a></li>
+                    <li><a href="servicii.html">Servicii și Prețuri</a></li>
+                    <li><a href="psihologie-sportiva.html">Psihologie Sportivă</a></li>
+                    <li><a href="resurse.html" class="active">Resurse</a></li>
+                    <li><a href="intrebari.html">Întrebări Frecvente</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article Hero -->
+    <!-- Page Header -->
+    <!-- Article Hero -->
+    <div class="article-hero">
+        <img src="images/emotional_health_hero.jpg" alt="Echilibru Emoțional" class="article-hero-bg">
+        <div class="article-hero-content">
+            <h1 class="article-hero-title" style="color: #f8f9fa; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Ce legătură
+                există între sănătatea emoțională,
+                respirație, gânduri și relații?</h1>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="section" style="padding-top: 0;">
+        <div class="container article-body">
+            <h2
+                style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--color-primary); line-height: 1.3; text-align: left;">
+                Sănătate mintală și emoțională: legătura dintre corp, gânduri, emoții și relații</h2>
+
+            <p class="lead"
+                style="font-size: 1.25rem; color: #555; margin-bottom: 2rem; font-weight: 500; text-align: left;">
+                Într-o lume în care performanța și productivitatea sunt adesea prioritare, nevoile noastre interioare
+                pot fi neglijate. Totuși, sănătatea mintală și emoțională nu sunt un lux, ci fundamentul unei vieți
+                echilibrate. Corpul, gândurile, emoțiile și relațiile noastre sunt interconectate, iar înțelegerea
+                acestei legături poate fi cheia către o viață autentică și rezilientă.
+            </p>
+
+            <h3>1. 🧍‍♀️ Corpul: oglinda emoțiilor și a gândurilor</h3>
+            <p>Corpul nostru nu este doar un vehicul pentru minte; el reflectă stările noastre interioare:</p>
+            <ul>
+                <li><strong>Stresul:</strong> se manifestă prin tensiune musculară, palpitații sau probleme digestive.
+                </li>
+                <li><strong>Anxietatea:</strong> poate provoca transpirații, tremururi sau respirație superficială.</li>
+                <li><strong>Bucuria:</strong> stimulează eliberarea de endorfine, oferind o senzație de ușurare și
+                    energie.</li>
+            </ul>
+            <p>Conform studiilor, aproximativ 80% din informațiile pe care le primim sunt procesate prin corp,
+                influențând atât emoțiile, cât și gândurile noastre.</p>
+
+            <h3>2. 💭 Gândurile: arhitecții emoțiilor</h3>
+            <p>Gândurile noastre modelează realitatea emoțională:</p>
+            <ul>
+                <li><strong>Gânduri negative:</strong> precum „Nu sunt suficient de bun” pot declanșa emoții de frică
+                    sau tristețe.</li>
+                <li><strong>Gânduri constructive:</strong> precum „Pot învăța din această experiență” generează
+                    încredere și calm.</li>
+            </ul>
+            <p><strong>Cum să intervenim?</strong></p>
+            <ul>
+                <li><strong>Observarea gândurilor:</strong> tratarea lor ca pe niște nori trecători, fără a le considera
+                    adevăruri absolute.</li>
+                <li><strong>Reformularea criticilor interne:</strong> transformarea „Eșecul este groaznic” în „Eșecul
+                    este o oportunitate de a evolua”.</li>
+            </ul>
+
+            <h3>3. ❤️ Emoțiile: mesagerii interiori</h3>
+            <p>Emoțiile nu sunt „bune” sau „rele”; ele sunt semnale ale nevoilor noastre:</p>
+            <ul>
+                <li><strong>Frica:</strong> indică nevoia de siguranță.</li>
+                <li><strong>Supărarea:</strong> semnalează că o limită a fost depășită.</li>
+            </ul>
+            <p><strong>Cum să le ascultăm?</strong></p>
+            <ul>
+                <li><strong>Denumiți emoțiile:</strong> „Sunt nervos”, „Sunt descurajat” – acest act simplu reduce
+                    intensitatea lor.</li>
+                <li><strong>Întrebați-vă:</strong> „Ce încearcă să-mi comunice această emoție?”</li>
+            </ul>
+
+            <h3>4. 🤝 Relațiile: oglinzi ale stării interioare</h3>
+            <p>Conexiunile cu ceilalți reflectă și influențează starea noastră emoțională:</p>
+            <ul>
+                <li><strong>Relații sănătoase:</strong> oferă sprijin, înțelegere și un sentiment de apartenență.</li>
+                <li><strong>Conectarea cu persoane dragi:</strong> poate reduce stresul și crește nivelul de oxitocină,
+                    hormonul „legăturii”.</li>
+            </ul>
+            <p><strong>Sugestii pentru îmbunătățirea relațiilor:</strong></p>
+            <ul>
+                <li><strong>Ascultare activă:</strong> acordați atenție deplină atunci când cineva vă vorbește.</li>
+                <li><strong>Exprimarea recunoștinței:</strong> spuneți „Mulțumesc” și apreciați gesturile celorlalți.
+                </li>
+                <li><strong>Petrecerea timpului de calitate:</strong> planificați activități comune care aduc bucurie.
+                </li>
+            </ul>
+
+            <h3>5. 🌅 Rutine zilnice pentru echilibru mintal, emoțional și relațional</h3>
+            <p><strong>Dimineața – Începeți ziua cu claritate:</strong></p>
+            <ul>
+                <li><strong>Deschideți draperiile și geamul:</strong> permiteți luminii naturale să pătrundă și
+                    respirați aer proaspăt.</li>
+                <li><strong>Jurnal de recunoștință:</strong> notați 3 lucruri pentru care sunteți recunoscător.</li>
+                <li><strong>Mesaj către o persoană dragă:</strong> trimiteți un gând bun sau o urare de bine.</li>
+            </ul>
+
+            <p><strong>Pe parcursul zilei – Conștiență în acțiune:</strong></p>
+            <ul>
+                <li><strong>Mișcare intenționată (20 min):</strong> plimbare sau stretching.</li>
+                <li><strong>Pauze de mindfulness:</strong> opriți-vă din ce faceți, chiar și pentru un minut, și
+                    lăsați-vă atenția să se așeze în prezent.</li>
+                <li><strong>Conectare socială:</strong> luați legătura cu un prieten sau coleg pentru o conversație
+                    scurtă.</li>
+            </ul>
+
+            <p><strong>Seara – Reconectare și repaus:</strong></p>
+            <ul>
+                <li><strong>Detox digital:</strong> cu 1 oră înainte de somn, închideți ecranele.</li>
+                <li><strong>Împărtășirea momentelor:</strong> discutați cu un membru al familiei despre momentele
+                    plăcute ale zilei.</li>
+                <li><strong>Somn calitativ:</strong> dormiți 7-8 ore într-o cameră întunecată.</li>
+            </ul>
+
+            <div
+                style="margin-top: 3rem; margin-bottom: 2rem; padding: 2rem; background-color: var(--color-light-gray); border-radius: 8px;">
+                <h4 style="color: var(--color-primary); margin-bottom: 0.5rem; font-family: var(--font-heading);">🌟
+                    Încheiere: micile ritualuri fac diferența</h4>
+                <p>Sănătatea mintală, emoțională și relațională se construiește prin acțiuni mici și constante.
+                    Ascultați-vă corpul, dialogați cu gândurile, onorați emoțiile și cultivați relațiile – acestea sunt
+                    ghizii către o versiune mai autentică a dumneavoastră.</p>
+            </div>
+
+            <div class="back-nav">
+                <a href="resurse.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Înapoi la Resurse
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Map -->
+                <div class="footer-col">
+                    <div class="footer-map-container">
+                        <a href="https://www.google.com/maps/place/Strada+Nicolae+Iorga+6,+Bra%C8%99ov+500057,+Rom%C3%A2nia/@45.646532,25.594391,13z/data=!4m6!3m5!1s0x40b35b7907064365:0x862333d178ecefff!8m2!3d45.6465324!4d25.5943915!16s%2Fg%2F11bw3_378p?hl=ro-RO&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <img src="images/harta-brasov.png" alt="Harta Brasov">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Address -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Mă găsești ușor la adresa:</h4>
+                    <div class="footer-contact-info">
+                        <p>Str. Nicolae Iorga, nr. 6,<br>Brașov</p>
+                    </div>
+                </div>
+
+                <!-- Col 3: Contact -->
+                <div class="footer-col" style="text-align: center;">
+                    <h4>Date de contact:</h4>
+                    <div class="footer-contact-info">
+                        <p>lorina_sandu@yahoo.com</p>
+                        <p>+40 735 845 786</p>
+                    </div>
+                </div>
+
+                <!-- Col 4: Actions -->
+                <div class="footer-col footer-actions">
+                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Psihologul Tău. Toate drepturile rezervate.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
