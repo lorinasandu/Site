@@ -405,14 +405,16 @@ footer {
     max-width: 200px;
 }
 
-.btn-contact-green {
-    background-color: #2e7d32;
+.btn-whatsapp {
+    background-color: #25D366;
     color: white;
+    font-weight: 500;
 }
 
-.btn-contact-green:hover {
-    background-color: #388e3c;
+.btn-whatsapp:hover {
+    background-color: #128C7E;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
 }
 
 .btn-faq-blue {

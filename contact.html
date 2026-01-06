@@ -103,7 +103,7 @@
 
                     <div style="margin-bottom: 2rem;">
                         <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;">Email</h4>
-                        <p><a href="mailto:lorina_sandu@yahoo.com">lorina_sandu@yahoo.com</a></p>
+                        <p><a href="mailto:lorinasandu@gmail.com">lorinasandu@gmail.com</a></p>
                     </div>
 
                     <div style="margin-bottom: 2rem;">
@@ -121,24 +121,25 @@
 
                 <!-- Form Side -->
                 <div class="contact-form">
-                    <form
-                        onsubmit="event.preventDefault(); alert('Mesajul a fost trimis! Vă voi contacta în curând.');">
+                    <form action="https://formspree.io/f/xrebwwok" method="POST">
                         <div class="form-group">
                             <label class="form-label" for="nume">Numele tău</label>
-                            <input type="text" id="nume" class="form-control" placeholder="Cum să mă adresez?" required>
+                            <input type="text" id="nume" name="nume" class="form-control"
+                                placeholder="Cum să mă adresez?" required>
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="email">Adresa de email</label>
-                            <input type="email" id="email" class="form-control" placeholder="exemplu@email.com"
-                                required>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="exemplu@email.com" required>
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="telefon">Număr de telefon</label>
-                            <input type="tel" id="telefon" class="form-control" placeholder="07xx xxx xxx">
+                            <input type="tel" id="telefon" name="telefon" class="form-control"
+                                placeholder="07xx xxx xxx">
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="subiect">Subiect</label>
-                            <select id="subiect" class="form-control">
+                            <select id="subiect" name="subiect" class="form-control">
                                 <option>Vreau o programare</option>
                                 <option>Informații Terapie Individuală</option>
                                 <option>Informații Psihologie Sportivă</option>
@@ -147,7 +148,7 @@
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="mesaj">Mesajul tău</label>
-                            <textarea id="mesaj" class="form-control" rows="5"
+                            <textarea id="mesaj" name="mesaj" class="form-control" rows="5"
                                 placeholder="Cu ce te pot ajuta?"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary" style="width: 100%;">Trimite Mesajul</button>
@@ -184,17 +185,20 @@
                 <div class="footer-col" style="text-align: center;">
                     <h4>Date de contact:</h4>
                     <div class="footer-contact-info">
-                        <p>lorina_sandu@yahoo.com</p>
+                        <p>lorinasandu@gmail.com</p>
                         <p>+40 735 845 786</p>
                     </div>
                 </div>
 
                 <!-- Col 4: Actions -->
                 <div class="footer-col footer-actions">
-                    <a href="contact.html" class="footer-btn btn-contact-green">Contactează-mă</a>
+                    <a href="https://wa.me/40735845786" target="_blank" class="footer-btn btn-whatsapp">Scrie-mi pe
+                        WhatsApp</a>
                     <div class="footer-socials">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/people/Psiholog-Lorina-Sandu/100063616121475/"
+                            target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/psiholog_lorina_sandu?igsh=MTgwdWVrdjNybXR5ag%3D%3D"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                     <a href="intrebari.html" class="footer-btn btn-faq-blue">Întrebări frecvente</a>
                 </div>
