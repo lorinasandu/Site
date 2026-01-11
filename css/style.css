@@ -692,7 +692,7 @@ footer {
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--color-text);
-    padding-bottom: 4rem;
+    padding: 0 1.5rem 4rem;
 }
 
 .article-body h3 {
@@ -714,4 +714,79 @@ footer {
 
 .article-body li {
     margin-bottom: 0.5rem;
+}
+
+/* Pricing Table Responsive Styles */
+.pricing-section {
+    margin-top: 4rem;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow-soft);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.pricing-table th {
+    background-color: var(--color-light-gray);
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .pricing-section {
+        padding: 1.5rem;
+    }
+
+    .pricing-table thead {
+        display: none;
+    }
+
+    .pricing-table,
+    .pricing-table tbody,
+    .pricing-table tr,
+    .pricing-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .pricing-table tr {
+        margin-bottom: 1.5rem;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        padding: 1rem;
+        background: var(--color-bg);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+
+    .pricing-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: right;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        font-size: 0.95rem;
+    }
+
+    .pricing-table td:last-child {
+        border-bottom: none;
+    }
+
+    .pricing-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: var(--color-primary);
+        text-align: left;
+        margin-right: 1rem;
+    }
 }
