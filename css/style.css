@@ -516,6 +516,14 @@ footer {
     .section-title {
         font-size: 2rem;
     }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding-left: 0.5rem;
+        /* Ensure visual safety zone */
+        padding-right: 0.5rem;
+    }
 }
 
 /* Article Cards Alignment */
