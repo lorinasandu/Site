@@ -844,9 +844,9 @@ footer {
     .pricing-table td {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         text-align: right;
-        padding: 0.75rem 0;
+        padding: 1rem 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         font-size: 0.95rem;
     }
@@ -860,6 +860,8 @@ footer {
         font-weight: 600;
         color: var(--color-primary);
         text-align: left;
-        margin-right: 1rem;
+        margin-right: 2rem;
+        flex-shrink: 0;
+        max-width: 40%;
     }
 }
