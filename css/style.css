@@ -568,6 +568,7 @@ footer {
 
     .mobile-menu-btn {
         display: block;
+        margin-left: auto;
     }
 
     .hero h1 {
