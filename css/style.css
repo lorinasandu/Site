@@ -240,6 +240,27 @@ header {
     max-width: 500px;
 }
 
+.hero-cta {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-hero-secondary {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--color-primary);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+}
+
+.btn-hero-secondary:hover {
+    background-color: #fff;
+    color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* Services Preview */
 .services-grid {
     display: grid;
@@ -526,6 +547,38 @@ footer {
     }
 }
 
+/* Custom Check List */
+.check-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.check-list li::before {
+    content: '\f00c';
+    /* FontAwesome Check */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+}
+
+.service-note {
+    font-size: 0.85rem;
+    color: #666;
+    display: block;
+    margin-top: 0.2rem;
+    font-weight: 400;
+}
+
 @media (max-width: 600px) {
     .footer-grid {
         grid-template-columns: 1fr;
@@ -560,6 +613,8 @@ footer {
         padding: var(--spacing-md);
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
         text-align: center;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 
     .nav-links.active {
@@ -707,6 +762,12 @@ footer {
 
 .articles-layout-grid .article-card {
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .articles-layout-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Specific styles for single article page */
